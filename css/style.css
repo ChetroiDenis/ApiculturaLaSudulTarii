@@ -99,12 +99,19 @@ p {
 .col-90 {width: 90%; }
 .col-100 {width: 100%; }
 
+.text {
+    text-align: center;
+}
 
 .title {
     border-bottom: 4px solid #000000;
     margin-bottom: 5px;
     margin-top: 10px;
+    text-align: center;
 
+}
+.materin-icons-outlined {
+    color: #000;
 }
 
 
@@ -154,11 +161,21 @@ p {
     overflow-y: scroll;
 }
 
+.lucrarilenoastre {
+    padding: 0px 15px 15px 15px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: auto ;
+    overflow-y: scroll;
+}
 
 .contact-list {
     line-height: 200%;
-    
+    list-style: linear-gradient(#000 #000);
 }
+
+
 
 .map {
     width: 100%;
@@ -166,7 +183,7 @@ p {
     height: 300px;
     border-radius: 5px;
     border: 2px solid black;
-    position: right ;
+    position: auto   ;
 }
 
 .centered {
@@ -222,6 +239,9 @@ display: none;
         padding:  10px 15px 20px 15px;
     }
 
+.text {
+    text-align: left;
+}
 
     aside {
         display: none;
