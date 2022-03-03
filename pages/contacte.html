@@ -80,13 +80,15 @@
 
                 <div class="col-50">
                 <div class="contact-form">
-                    <form action="https://formsubmit.co/denischetroi45@gmail.com" method="POST" >
+                    <form id="contact-form" method="post" action="contact-form-hadler.php">
                         <h3 class="centered">
                             Lasa un mesaj</h3>
                             <input type="text" placeholder="Nume" required />
-                            <input type="email" placeholder="Email" required />
+                             <br>
+                             <input type="email" placeholder="Email" required />
+                             <br>
                             <textarea rows="3" placeholder="Mesaj" required ></textarea>
-                            <input type="submit" value="Transmite" />
+                            <input type="submit" class="form-control submit" value="Transmite" />
                             
                     </form>
 

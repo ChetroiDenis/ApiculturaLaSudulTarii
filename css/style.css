@@ -199,6 +199,10 @@ p {
 
 }
 
+form {
+    margin-top: 50px;
+}
+
 .contact-form input, .contact-form textarea {
     display: block;
     width: 70%;
